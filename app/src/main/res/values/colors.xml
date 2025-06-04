@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#009A49</color>
+    <color name="colorPrimaryVariant">#007A3A</color>
+    <color name="colorSecondary">#FFD300</color>
+    <color name="colorBackground">#FFFFFF</color>
+
+    <color name="colorTextPrimary">#DE000000</color>
+    <color name="colorTextSecondary">#8A000000</color>
+
+    <color name="green_primary">#00A651</color>
+    <color name="green_on_primary">#FFFFFF</color>
+    <color name="green_primary_container">#B6FFD4</color>
+    <color name="green_on_primary_container">#00210C</color>
+
+    <color name="green_secondary">#009246</color>
+    <color name="green_on_secondary">#FFFFFF</color>
+    <color name="green_secondary_container">#C2FFD2</color>
+    <color name="green_on_secondary_container">#00210C</color>
+
+    <color name="grey_surface">#FAFAFA</color>
+    <color name="grey_background">#F5F5F5</color>
+    <color name="grey_outline">#DDDDDD</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+</resources>

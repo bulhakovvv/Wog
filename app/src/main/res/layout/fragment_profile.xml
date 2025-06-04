@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ім'я:"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Карта PRIDE:"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvBonusBalance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Бонусний баланс: 0.00 ₴"
+        android:layout_marginBottom="4dp" />
+
+    <TextView
+        android:id="@+id/tvFuelBalance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Залишок пального: 0 л"
+        android:layout_marginBottom="4dp" />
+
+    <TextView
+        android:id="@+id/tvCoffeeCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Кавові напої: 0" />
+</LinearLayout>

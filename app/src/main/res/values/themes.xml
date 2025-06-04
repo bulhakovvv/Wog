@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.WOGPride" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="colorPrimary">@color/green_primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="colorSecondary">@color/green_secondary</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Контейнери / фони -->
+        <item name="colorPrimaryContainer">@color/green_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/white</item>
+
+        <item name="colorSurface">@color/grey_surface</item>
+        <!-- ⚠️  У Material 3 треба вказувати ПЛАТФОРМОВИЙ атрибут -->
+        <item name="android:colorBackground">@color/grey_background</item>
+
+        <!-- Системні бари -->
+        <item name="android:statusBarColor">@color/green_primary_container</item>
+        <item name="android:navigationBarColor">@color/green_primary</item>
+    </style>
+
+    <style name="TextAppearance.Title" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textColor">@color/colorTextPrimary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.Caption" parent="TextAppearance.Material3.BodySmall">
+        <item name="android:textColor">@color/colorTextSecondary</item>
+    </style>
+
+    <style name="HomeQuickButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+</resources>

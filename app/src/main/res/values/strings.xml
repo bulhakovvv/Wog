@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WOG Pride</string>
+
+    <string name="nav_home_label">Головна</string>
+    <string name="nav_offers_label">Акції</string>
+    <string name="nav_cart_label">Магазин</string>
+    <string name="nav_map_label">Карта</string>
+    <string name="nav_profile_label">Профіль</string>
+
+    <string name="fuel">Пальне</string>
+    <string name="coffee">Кава</string>
+    <string name="cafe">Кафе</string>
+    <string name="wog_pay">WOG Pay</string>
+
+    <string name="qr_code">QR-код PRIDE</string>
+
+</resources>
